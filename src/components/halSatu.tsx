@@ -3,10 +3,12 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
+import Box from '@mui/material/Box';
+import { ThemeProvider } from '@mui/material/styles';
 
 const HalSatu = () => {
     return (
-        <section className="h-auto">
+        <section className="h-screen flex items-center">
             <div className="grid grid-cols-1 sm:grid-cols-12">
             <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
@@ -25,7 +27,7 @@ const HalSatu = () => {
                         1000,
                         "Web Developer",
                         1000,
-                        "Frontend Developer",
+                        "Frontend",
                         1000,
                         "UI/UX Designer",
                         1000,
@@ -54,9 +56,9 @@ const HalSatu = () => {
             </div>
             </motion.div>
           <div className="w-[300px] h-[300px]
-          lg:w-[550px] lg:h-[550px] relative overflow-hidden col-span-4 place-self-center mt-4 lg:mt-0"> 
+          lg:w-[450px] lg:h-[450px] relative overflow-hidden col-span-4 place-self-center mt-4 lg:mt-0 "> 
             <Image
-              src="/images/ppo.svg"
+              src="/images/foto_daffa.svg"
               alt="hero image"
               className="absolute inset-0 w-full h-full object-cover" 
               width={400} 

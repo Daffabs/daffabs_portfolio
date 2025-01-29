@@ -7,31 +7,6 @@ import { ThemeProvider } from '@mui/material/styles';
 const HalDua = () => {
     return (
         <section className="h-auto">
-            <div className="grid-cols-1 sm:grid-cols-12">
-                <ThemeProvider
-                    theme={{
-                        palette: {
-                        primary: {
-                            main: '#FFA600',
-                            dark: '#CC8500',
-                        },
-                        },
-                    }}
-                    >
-                    <Box
-                        sx={{
-                        width: '100%',
-                        height: 40,
-                        bgcolor: 'transparent',
-                        background: 'linear-gradient(45deg, #3C3D37 0%, #A0A393  50%, #3C3D37 100% )',
-                        position: 'absolute',
-                        bottom: 55,
-                        left: 0,
-                        right: 0,
-                        }}
-                    />
-                    </ThemeProvider>
-            </div>
             <div className="flex flex-col items-center col-span-8 pt-10">
                     <h1 className="text-white text-lg sm:text-2xl lg:leading-normal text-center">
                         - Services -
@@ -41,7 +16,7 @@ const HalDua = () => {
                         <span className="text-white"> I Provide</span>
                     </p>
                     </div>
-            <div className="flex flex-wrap justify-between items-center h-4/6 gap-4 pt-10">
+            <div className="flex flex-wrap justify-center items-center h-4/6 gap-4 pt-10">
                     <Box
                         sx={{
                         width: { xs: '100%', sm: 250 },

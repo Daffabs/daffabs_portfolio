@@ -28,7 +28,7 @@ const HalEmpat = () => {
                     </p>
                 </div>
             </div>
-            <div className="flex flex-wrap justify-between items-center gap-4 pt-14">
+            <div className="flex flex-wrap justify-center items-center gap-4 pt-14">
                 {[1, 2, 3, 4, 5, 6].map((item, index) => (
                     <Box
                         key={index}
