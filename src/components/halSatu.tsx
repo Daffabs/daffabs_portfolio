@@ -8,7 +8,7 @@ import { ThemeProvider } from '@mui/material/styles';
 
 const HalSatu = () => {
     return (
-        <section className="h-screen flex items-center">
+        <section className="h-auto pt-20">
             <div className="grid grid-cols-1 sm:grid-cols-12">
             <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
