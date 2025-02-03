@@ -14,9 +14,9 @@ const HalSatu = () => {
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
-            className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+            className="col-span-8 place-self-center text-center sm:text-left justify-self-stretch"
             >
-            <h1 className="text-white mb-4 text-2xl sm:text-7xl lg:leading-normal font-extrabold">
+            <h1 className="text-white mb-4 text-2xl sm:text-4xl lg:leading-normal font-extrabold">
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-dark-3">
                 Hello, I&apos;m{" "}
                 </span>
