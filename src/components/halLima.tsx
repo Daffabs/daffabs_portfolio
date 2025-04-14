@@ -49,28 +49,58 @@ const HalLima = () => {
             My Latest <span className="text-dark-5 italic">Projects</span>
           </h2>
         </div>
-        <div className="sm:grid-cols-12 bg-dark-4 h-auto items-center p-6 flex flex-wrap justify-center gap-6">
-        <Card sx={{ maxWidth: 345, border: '5px solid #697565' }}>
-          <a href="https://pmi-intern-phi.vercel.app/" target="_blank" rel="noopener noreferrer">
-            <CardMedia
-              component="img"
-              height="194"
-              image="/images/web-pmi.png"
-              alt="PMI"
-            />
-          </a>
-        </Card>
-        <Card sx={{ maxWidth: 345, border: '5px solid #697565' }}>
-          <a href="https://spk-penilaian-karyawan.vercel.app/" target="_blank" rel="noopener noreferrer">
-            <CardMedia
-              component="img"
-              height="194"
-              image="/images/web-perdana.png"
-              alt="Perdana"
-            />
-          </a>
-        </Card>
-        
+        <div className="sm:grid-cols-12 bg-dark-4 h-auto items-center p-6 flex flex-wrap justify-center gap-6  text-center">
+          <Card sx={{ maxWidth: 345, border: '5px solid #697565' }}>
+            <div className="relative group">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <CardMedia
+                  component="img"
+                  height="194"
+                  image="/images/web-pmi.png"
+                  alt="PMI"
+                  className="group-hover:brightness-75 transition duration-300"
+                />
+                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300">
+                  <p className="text-white text-lg font-semibold">Dashboard PMI Kota Bandung</p>
+                </div>
+              </a>
+            </div>
+          </Card>
+
+          <Card sx={{ maxWidth: 345, border: '5px solid #697565' }}>
+            <div className="relative group">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <CardMedia
+                  component="img"
+                  height="194"
+                  image="/images/web-perdana.png"
+                  alt="Perdana"
+                  className="group-hover:brightness-75 transition duration-300"
+                />
+                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300">
+                  <p className="text-white text-lg font-semibold">Sistem Penilaian Kinerja Karyawan Perdana Photo Group</p>
+                </div>
+              </a>
+            </div>
+          </Card>
+
+          <Card sx={{ maxWidth: 345, border: '5px solid #697565' }}>
+            <div className="relative group">
+              <a href="https://jagwar.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <CardMedia
+                  component="img"
+                  height="194"
+                  image="/images/jagwar.png"
+                  alt="Perdana"
+                  className="group-hover:brightness-75 transition duration-300"
+                />
+                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300">
+                  <p className="text-white text-lg font-semibold">Dummy - JAGWAR</p>
+                </div>
+              </a>
+            </div>
+          </Card>
+
         </div>
       </div>
     </section>
